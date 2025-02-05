@@ -1,0 +1,41 @@
+post method.
+http://localhost:3000/login/register
+{
+    "id":"1",
+    "email":"p@gmail.com",
+    "password":"1",
+    "name":"p",
+    "phoneNumber":"1234"
+}
+
+login
+{
+    "email":"p@gmail.com",
+    "password":"1"
+    
+}
+
+http://localhost:3000/user/create
+{
+    {
+  "username": "protik",
+  "role": "admin",
+  "accountStatus": "active"
+}
+
+
+}
+
+search,delete
+get
+http://localhost:3000/user/1
+
+prescription:
+
+http://localhost:3000/prescription/create
+{
+  "doctorId": 1,
+  "fulfillmentStatus": "pending",
+  "actions": "Prescribed antibiotics"
+}
+
